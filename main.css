@@ -1,43 +1,91 @@
 
  /* TODO: pagr turinys centruotas vertikaliai */
 
-main{
+body{
+    background-color: #7DBEDF;
+}
+
+ .container{
     display: inline-block;
     width: 800px;
-    background-color: aqua;
     margin-left: calc( (100% - 800px) / 2);
     margin-top: 100px;
 }
 
-div:nth-of-type(1){
+.left-column{
     display: inline-block;
     width: 40%;
     float: left;
     padding: 40px;
-    background-color: blanchedalmond;
+    background-color: #0165B5;
 }
 
-h1{
+.main-title{
    display: inline-block;
    width: 100%;
+   color: #ffffff;
 }
 
-footer{
+.bottom-links{
     display: inline-block;
     width: 100%;
 }
 
-a{
+.bottom-links > .link{
     display: inline-block;
+    color: #ffffff;
 }
 
-span{
+.symbol{
     display: inline-block;
+    color: #ffffff;
 }
 
-div:nth-of-type(2){
+.right-column{
     display: inline-block;
     width: 60%;
     float: left;
-    background-color: chocolate;
+    padding: 60px;
+    background-color: #ffffff;
+}
+
+/* x - close element */
+.close{
+    display: inline-block;
+    background-color: red;
+}
+
+.form{
+    display: inline-block;
+    width: 100%;
+}
+
+.form > .form-row{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.form-row:last-of-type{
+    margin-bottom: 0;
+}
+
+label{
+    display: inline-block;
+    width: 100%;
+}
+
+input{
+    display: inline-block;
+    width: 100%;
+}
+
+.btn{
+}
+
+.text{}
+
+.form-row > .link{
+    color: #000000;
+    text-decoration: none;
 }
