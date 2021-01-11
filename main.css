@@ -1,0 +1,23 @@
+
+ /* TODO: pagr turinys centruotas vertikaliai */
+
+main{
+    display: inline-block;
+    width: 800px;
+    background-color: aqua;
+    margin-left: calc( (100% - 800px) / 2);
+    margin-top: 100px;
+}
+
+div:nth-of-type(1){
+    display: inline-block;
+    width: 40%;
+    float: left;
+    background-color: blanchedalmond;
+}
+div:nth-of-type(2){
+    display: inline-block;
+    width: 60%;
+    float: left;
+    background-color: chocolate;
+}
