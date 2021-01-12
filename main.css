@@ -3,7 +3,7 @@
 
 body{
     background-color: #7DBEDF;
-}
+    }
 
  .container{
     display: inline-block;
@@ -18,12 +18,12 @@ body{
     float: left;
     padding: 40px;
     background-color: #0165B5;
+    color: #ffffff;
 }
 
 .main-title{
    display: inline-block;
    width: 100%;
-   color: #ffffff;
 }
 
 .bottom-links{
@@ -38,7 +38,6 @@ body{
 
 .symbol{
     display: inline-block;
-    color: #ffffff;
 }
 
 .right-column{
@@ -52,7 +51,6 @@ body{
 /* x - close element */
 .close{
     display: inline-block;
-    background-color: red;
 }
 
 .form{
@@ -73,19 +71,52 @@ body{
 label{
     display: inline-block;
     width: 100%;
+    text-transform: uppercase;
+    color: #999;
+    font-size: 14px;
 }
 
 input{
     display: inline-block;
     width: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    border: none;
+    border-bottom: 2px solid #ccc;
 }
 
 .btn{
+    display: inline-block;
+    background-color: #1f79e7;
+    color: #ffffff;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 18px;
+    line-height: 20px;
+    border-radius: 20px;
+    border: none;
+    text-transform: capitalize;
+    cursor: pointer;
 }
 
-.text{}
+.btn:hover{
+    background-color:#7cade9;
+}
+
+.text{
+    display: inline-block;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 20px;
+    margin-left: 10px;
+}
 
 .form-row > .link{
-    color: #000000;
+    display: inline-block;
+    color: #5064AD;
     text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 20px;
 }
