@@ -4,7 +4,7 @@ body{
     }
 
 .background{
-   display: inline-block;
+    display: inline-block;
     width: 100%;
     height: 100vh;
     background-image: url(../img/hill.png);
@@ -18,8 +18,9 @@ body{
     display: inline-block;
     width: 800px;
     position: absolute;
-    top: 100px;
-    left: calc( (100% - 800px) / 2);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .left-column{
