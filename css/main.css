@@ -118,6 +118,11 @@ input{
     border-bottom: 2px solid #ccc;
 }
 
+input::placeholder{
+    color:#ccc;
+    font-style: italic;
+}
+
 .btn{
     display: inline-block;
     background-color: #1f79e7;
